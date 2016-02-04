@@ -1,0 +1,53 @@
+html {
+    font-family: sans;
+    background-color: #000;
+    font-size: 16px;
+}
+
+body {
+    margin: 45px auto;
+}
+
+header > h1 {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    text-align: center;
+    color: #cf112d;
+}
+
+@media (min-width: 701px) {
+    header > h1 {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 400px) {
+    header > h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 700px)  {
+    header > h1 {
+        font-size: 3.5rem;
+    }
+}
+
+nav {
+    margin: 20px;
+    text-align: center;
+}
+
+nav > a {
+    color: #fff;
+}
+
+nav > a:hover {
+    color: #cf112d;
+}
+
+footer {
+    color: #ccc;
+    text-align: center;
+    font-weight: 300;
+}
