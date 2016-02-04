@@ -1,0 +1,12 @@
+[submodule "vendor/font-awesome"]
+	path = vendor/font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "vendor/skeleton"]
+	path = vendor/skeleton
+	url = https://github.com/dhg/Skeleton.git
+[submodule "vendor/tota11y"]
+	path = vendor/tota11y
+	url = https://github.com/Khan/tota11y.git
+[submodule "vendor/normalize"]
+	path = vendor/normalize
+	url = https://github.com/necolas/normalize.css.git
